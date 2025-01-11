@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workspace Creation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="images/scrnli_Db3cv376Q098Ek.png" alt="">
+    </div>
+    <div class="modal">
+
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close-btn">&times;</button>
+                <h2 class="modal-title">Создание рабочего пространства</h2>
+                <span class="step">2/5</span>
+            </div>
+            <div class="modal-body">
+                <div class="form-row">
+                    <div class="form-col">
+                        <label for="org-name">Название организации*</label>
+                        <input type="text" id="org-name" placeholder="Введите название">
+                    </div>
+                    <div class="form-col">
+                        <label for="short-name">Короткое имя*</label>
+                        <input type="text" id="short-name" placeholder="@ введите имя">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-col">
+                        <label for="activity">Вид деятельности*</label>
+                        <select id="activity">
+                            <option value="">Выберите деятельность</option>
+                            <option value="">Учитель</option>
+                            <option value="">Программист </option>
+                            <option value="">Врач</option>
+                            <option value="">Инженер-строитель</option>
+
+                        </select>
+                    </div>
+                    <div class="form-col">
+                        <label for="country">Страна*</label>
+                        <select id="country">
+                            <option value="">Выберите страну</option>
+                            <option value="">Россия</option>
+                            <option value="">Египет</option>
+                            <option value="">Китай</option>
+                            <option value="">Катар</option>
+                            <option value="">США</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="back-btn">Назад</button>
+                <button class="continue-btn">Продолжить</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
